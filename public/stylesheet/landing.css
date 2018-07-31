@@ -1,0 +1,115 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(/images/artem-bali.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.landContainer {
+    margin: 10% 20%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 3px solid #f9f8de;
+    background-color: rgba(85,85,85,0.4);
+    color: white;
+
+    -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.landContainer h1, .landContainer p {
+    text-align: center
+}
+
+ul {    
+    list-style-type: none;
+    text-align: center
+    /* background-color: rgba(0, 0, 0, 0.3) */
+}
+
+li {
+    /* padding: 2px 0; */
+    /* padding-right: 2px; */
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.btn-warning{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    border: 2px solid white;
+    background-color: rgba(234, 239, 247, 0.3)
+}
+
+.btn-warning:hover, .btn-warning:active, .btn-warning:visited, .btn-warning:focus .btn-warning:active:focus {
+    background-color: rgba(234, 239, 247, 0.7);
+    border: 2px solid white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 800;
+    /* text-decoration: underline; */
+    width: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+    
+
+
+@media (max-width: 767.98px) {
+    .landContainer {
+        margin: 18% 4%;
+        padding: 1%;
+        border-radius: 20px;
+        border: 3px solid #f9f8de;
+        background-color: rgba(85,85,85,0.4);
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

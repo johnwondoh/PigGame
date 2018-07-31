@@ -53,8 +53,8 @@ rollDiceBtn.addEventListener('click', function(){
         // generate dice numbers
         var generateNums = generateDiceNumbers();
         // setting the dice images to match the generated numbers
-        document.querySelector('#dice-1').src = "dice-"+generateNums[0]+'.png';
-        document.querySelector('#dice-2').src = "dice-"+generateNums[1]+'.png';
+        document.querySelector('#dice-1').src = "/images/dice-"+generateNums[0]+'.png';
+        document.querySelector('#dice-2').src = "/images/dice-"+generateNums[1]+'.png';
         // check if a dice number is equal to 1
         if(generateNums[0] === 1 || generateNums[1] === 1){
             current[ind].textContent = 0;

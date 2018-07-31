@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "John Wondoh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "path": "^0.12.7"
+  }
 }
