@@ -19,8 +19,13 @@ app.get('/game', (req, res)=>{
 })
 
 
-var port = 5000;
+// var port = 5000;
 
-app.listen(port, function(){
+// app.listen(port, function(){
+//     console.log('Pig game app started...')
+// });
+
+
+app.listen(process.env.PORT, process.env.IP, function(){
     console.log('Pig game app started...')
 });
